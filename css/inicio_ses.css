@@ -1,0 +1,122 @@
+@import url(reset.css);
+@import url(fuentes.css);
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    background-image: url(../imagenes/fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .95;
+}
+
+h1 {
+    color: red;
+}
+
+form {
+    width: 450px;
+    min-height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    border-radius: 5px;
+    margin: 4% auto;
+    box-shadow: 0 9px 50px black;
+    padding: 2%;
+    background-image: url(../imagenes/mitad.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form .con {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+header h2 {
+    font: bold 250%/1 arial;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: 0 2px 0 black, 0 4px 0 black, 0 6px 0 black, 0 8px 0 black, 0 10px 0 black, 0 12px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+header p {
+    letter-spacing: 0.05px;
+}
+
+.input-item {
+    background: black;
+    color: white;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input[class="form-input"] {
+    width: 250px;
+    height: 50px;
+    margin-top: 2%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+}
+
+input[id="txt-input"] {
+    width: 250px;
+}
+
+input:focus {
+    transform: translateX(4px);
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    padding: 0px 10px;
+    background-image: url(../imagenes/inicio_ses.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: 7%;
+    margin-left: 100px;
+    letter-spacing: 0.05em;
+}
+
+button:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}

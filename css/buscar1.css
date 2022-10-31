@@ -1,0 +1,137 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#tag {
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 150px;
+    border: 3px solid #000;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: url("../imagenes/degradado.png") no-repeat center center;
+    background-size: cover;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+#tag th {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    border: 3px solid #000;
+    border-spacing: 1px;
+    background: red;
+    color: white;
+    float: center;
+    font-weight: bold;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#tag td {
+    width: 20%;
+    text-align: center;
+    border: 3px solid #000;
+    border-spacing: 0;
+    background: transparent;
+}
+
+
+h3 {
+    text-align: center;
+    line-height: 11px;
+    color: white;
+    float: right;
+    right: 440px;
+    position: relative;
+    align-items: center;
+    top: 60px;
+    font-weight: bold;
+    font: bold 50px/1 arial;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: 0 2px 0 black, 0 4px 0 black, 0 6px 0 black, 0 8px 0 black, 0 10px 0 black, 0 12px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#q1 {
+    display: inline-block;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05px;
+}
+
+#q1:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+.dos {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 3px solid #000;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: url("../imagenes/degradado.png") no-repeat center center;
+    background-size: cover;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+#bot {
+    height: 80px;
+    width: 80px;
+    color: transparent;
+    background-image: url(../imagenes/cerrar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    outline: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#bot:hover {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+    color: #fff;
+    color: var(--accent-color);
+    color: transparent;
+    text-decoration: none;
+}

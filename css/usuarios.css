@@ -1,0 +1,273 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .95;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nim a button {
+    display: inline-block;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    padding: 0px 10px;
+    background-image: url(../imagenes/registrarse.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: 7%;
+    margin-left: 950px;
+    letter-spacing: 0.05px;
+}
+
+#nim a button:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+#tag {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 3px solid #000;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: url("../imagenes/degradado.png") no-repeat center center;
+    background-size: cover;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+#tag th {
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    border: 3px solid #000;
+    border-spacing: 1px;
+    background: red;
+    color: white;
+    float: center;
+    font-weight: bold;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#tag td {
+    width: 20%;
+    text-align: center;
+    border: 3px solid #000;
+    border-spacing: 0;
+    background: transparent;
+}
+
+.buscar {
+    margin-top: 30px;
+    margin-left: 310px;
+    width: 520px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.uno {
+    display: inline-block;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    background-image: url(../imagenes/buscar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: 30px;
+    margin-left: 10px;
+    letter-spacing: 0.05px;
+}
+
+.uno:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+h3 {
+    text-align: center;
+    line-height: 11px;
+    color: white;
+    float: right;
+    right: 240px;
+    position: relative;
+    align-items: center;
+    top: 60px;
+    font-weight: bold;
+    font: bold 50px/1 arial;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: 0 2px 0 black, 0 4px 0 black, 0 6px 0 black, 0 8px 0 black, 0 10px 0 black, 0 12px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#q1 {
+    display: inline-block;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05px;
+}
+
+#q1:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+#q2 {
+    display: inline-block;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05px;
+}
+
+#q2:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+.dos {
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 3px solid #000;
+    border-spacing: 0;
+    border-collapse: separate;
+    background: url("../imagenes/degradado.png") no-repeat center center;
+    background-size: cover;
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+#bot {
+    height: 80px;
+    width: 80px;
+    color: transparent;
+    background-image: url(../imagenes/cerrar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    outline: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+#bot:hover {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+    color: #fff;
+    color: var(--accent-color);
+    color: transparent;
+    text-decoration: none;
+}
+#pagina{
+    width: 200px;
+    min-height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    border-radius: 10px;
+    margin: 2% auto;
+    padding: 1.5%;
+    
+}
+
+#pagina nav {
+    float: center;
+    text-align: center;
+    outline: none;    
+    width: 150%;
+    margin-left:-35px;
+
+}
+
+#pagina nav ul {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    justify-content:center;
+}
+
+#pagina nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    left:auto;
+    margin-left:5px;
+}
+
+#pagina nav ul li a {
+    color: #fff;
+    float: center;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#pagina nav ul li a:hover {
+    text-decoration: none;
+}

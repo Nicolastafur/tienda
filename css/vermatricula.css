@@ -1,0 +1,426 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .95;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    border-radius: 10px;
+    height: auto;
+    width: 900px;
+    border: 1px solid #000;
+    border-spacing: 0;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: url("../imagenes/degradado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    float: center;
+    box-shadow: 0px 10px 12px black;
+}
+
+form #logotipo {
+    width: 600px;
+    margin: auto;
+    display: inline;
+    float: center;
+    margin-left: 210px;
+}
+
+form #logotipo img {
+    height: 252px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: -60px;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#h2_1 {
+    text-align: center;
+    line-height: 11px;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#h2_2 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 500px;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#h2_3 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 530px;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+.tabla {
+    margin-top: 50px;
+    margin-left: 225px;
+    box-shadow: 0px 10px 12px black;
+    border-radius: 10px;
+    background: url("../imagenes/ventas1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow: hidden;
+    width: 490px;
+    height: 400px;
+}
+
+#h2_4 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 20%;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#lab1 {
+    color: white;
+    width: 50px;
+    left:-25%;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom1 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    top:-25px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#lab2 {
+    color: white;
+    width: 50px;
+    left:-32%;
+    top:-22px;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom2 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    top:-50px;
+
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#lab3 {
+    color: white;
+    width: 50px;
+    left:-30%;
+    top:-22px;    
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom3 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    top:-50px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#lab4 {
+    color: white;
+    width: 50px;
+    left:-30%;
+    top:-22px;     
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom4 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    top:-50px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#h1 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 10%;
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+    
+.tabla1{
+border-spacing: 0;
+margin-top: 50px;
+margin-left: 15%;
+border-radius: 10px;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: auto;
+overflow: hidden;
+width: 650px;
+height: 200px;
+border: 5px solid;
+border-spacing: 1;
+}
+
+#uno{
+    color: white;
+    width: 50px;
+    margin-left:   -10%;
+    margin-top:-10px;     
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#dos {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    margin-top:-50px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: -10%;
+    width: 100px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#tres {
+    color: white;
+    left:25%;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+th {
+    width: 25%;
+    text-align: center;
+    border-spacing: 1;
+    background: transparent;
+    color: white;
+    float: center;
+    text-align: center;
+    margin-left: auto;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    border-spacing: 1;
+    background: transparent;
+    color: white;
+    float: center;
+    text-align: center;
+}
+
+.tabla2 {
+    margin-top: 20px;
+    color: #000;
+    float: center;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35%;
+}
+.tabla2 td input{
+    display: inline-block;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05px;
+}
+
+.tabla2 td input:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+.enviar a input {
+    display: inline-block;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    background-image: url(../imagenes/nueva.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05px;
+}
+
+.enviar a input:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+.ver a input {
+    display: inline-block;
+    color: transparent;
+    width: 80px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    background-image: url(../imagenes/pdf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05px;
+   
+}
+
+.ver a input:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}

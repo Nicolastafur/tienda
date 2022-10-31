@@ -1,0 +1,139 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#cod {
+    box-shadow: 0px 10px 12px black;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 300px;
+    width: 650px;
+    height: 630px;
+    background: url("../imagenes/actualizar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow: hidden;
+}
+
+#inp1 {
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 230px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#inp2 {
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 230px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#inp3 {
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 230px;
+    font-weight: bolder;
+    width: 255px;
+    height: 35px;
+    text-align: center;
+}
+
+#inp4 {
+    font-weight: bolder;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 230px;
+    width: 255px;
+    height: 35px;
+    text-align: center;
+}
+
+#lab1 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    margin-left: -250px;
+    position: relative;
+    top: 35px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#bot {
+    height: 70px;
+    width: 70px;
+    color: transparent;
+    background-image: url(../imagenes/guardar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+#bot:hover {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+    color: #fff;
+    color: var(--accent-color);
+    color: transparent;
+    text-decoration: none;
+}
+
+#h2 {
+    width: 480px;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+}
+
+#h2_1 {
+    padding-top: 10px;
+    margin-left: 60px;
+    font-weight: bold;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}

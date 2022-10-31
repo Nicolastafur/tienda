@@ -1,0 +1,196 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#res {
+    box-shadow: 0px 10px 12px black;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 480px;
+    height: 500px;
+    background: url("../imagenes/informacion.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inp1 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab1 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 35px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#inp2 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab2 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#inp4 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab4 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#inp5 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab5 {
+    color: white;
+    font-size: 18px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#inp7 {
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 180px;
+    width: 255px;
+    height: 30px;
+    text-align: center;
+}
+
+#lab7 {
+    color: white;
+    font-size: 18px;
+    width: 140px;
+    margin-left: 50px;
+    position: relative;
+    top: 20px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#dos {
+    margin-top: -230px;
+    margin-left: 370px;
+}
+
+#bot {
+    height: 150px;
+    width: 150px;
+    color: transparent;
+    background-image: url(../imagenes/cerrar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+#bot:hover {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+    color: #fff;
+    color: var(--accent-color);
+    color: transparent;
+    text-decoration: none;
+}
+
+#h2 {
+    width: 480px;
+    margin-left: 60px;
+    margin-top: 50px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+}
+
+#h2_1 {
+    padding-top: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}

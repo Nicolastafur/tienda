@@ -1,0 +1,275 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .95;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.tabla {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 40%;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: 0 2px 0 black, 0 4px 0 black, 0 6px 0 black, 0 8px 0 black, 0 10px 0 black, 0 12px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#h3 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 10%;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: orange;
+    text-shadow: 0 2px 0 black, 0 4px 0 black, 0 6px 0 black, 0 8px 0 black, 0 10px 0 black, 0 12px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#h2_1 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 10%;
+    margin-top: 25px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#de {
+    color: white;
+    font-size: 18px;
+    width: 40px;
+    margin-left: 300px;
+    position: relative;
+    top: 65px;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 red, 0 2px 0 red, 0 3px 0 red, 0 4px 0 red, 0 5px 0 red, 0 6px 0 red, 3px 8px 15px red, 3px 8px 5px red;
+}
+
+#inp {
+    margin-top: -30px;
+    margin-left: 510px;
+    width: 520px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+.uno {
+    display: inline-block;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    background-image: url(../imagenes/buscar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    margin-top: 30px;
+    margin-left: 10px;
+    letter-spacing: 0.05px;
+}
+
+.uno:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
+
+#dev {
+    box-shadow: 0px 10px 12px black;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 530px;
+    background: url("../imagenes/ventas1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    overflow: hidden;
+    width: 490px;
+    height: 430px;
+}
+
+#lab1 {
+    top: 25px;
+    color: white;
+    width: 50px;
+    margin-left: 25px;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom1 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#lab2 {
+    top: 25px;
+    color: white;
+    width: 50px;
+    margin-left: 25px;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom2 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#lab3 {
+    top: 25px;
+    color: white;
+    width: 50px;
+    margin-left: 25px;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom3 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#lab4 {
+    top: 25px;
+    color: white;
+    width: 50px;
+    margin-left: 25px;
+    position: relative;
+    font: bold 18px/1 arial;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 7px 15px black, 3px 8px 5px black;
+}
+
+#nom4 {
+    position: relative;
+    border: 0px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    border-radius: 8px;
+    font: bold 18px/1 arial;
+    margin-left: 210px;
+    width: 255px;
+    height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#h2_2 {
+    text-align: center;
+    line-height: 11px;
+    margin-left: 5%;
+    top: 15px;
+    position: relative;
+    align-items: center;
+    font-weight: bold;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 1px 0 black, 0 2px 0 black, 0 3px 0 black, 0 4px 0 black, 0 5px 0 black, 0 6px 0 black, 3px 8px 15px black, 3px 8px 5px black;
+}
+
+#tabla2 {
+    background-color: aqua;
+}
+
+#q1 {
+    display: inline-block;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    background: url(../imagenes/carrito1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    letter-spacing: 0.05px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#q1:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+}
